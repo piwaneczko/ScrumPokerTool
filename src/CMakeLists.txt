@@ -1,3 +1,6 @@
+option(BUILD_SHARED_LIBS   "Disable building shared libs"   OFF )
+option(USE_BUNDLED_ZLIB   "Use static zlib"   ON )
+option(BUILD_CLAR    "Don't build clar"   OFF )
 add_subdirectory(zlibstatic)
 add_subdirectory(libgit2)
 add_subdirectory(app)

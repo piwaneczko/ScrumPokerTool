@@ -1,7 +1,5 @@
 #include <git2/repository.h>
 #include <QDebug>
-#include <iostream>
-#include <regex>
 #include "git2pp.h"
 
 /**
